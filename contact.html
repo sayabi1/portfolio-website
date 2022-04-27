@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Abhisheks'S website</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a href="index.html">
+        <img
+          src="images/logo.svg"
+          alt="logo of my website"
+          class="page-header__item"
+        />
+      </a>
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a
+              href="contact.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Contact</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-contact">
+      Tel <a href="tel:+4917661606400">+49 17661606488</a><br />
+      Skype <a href="skype:live:.cid.1535fac7435a5bfd">hello.abhishek</a><br />
+      <a href="mailto:karkiabhishek53@gmail.com">karkiabhishek53@gmail.com</a>
+      <form action="" method="post" id="contact-form">
+        <label class="standard-label" for="contact-email">Email</label>
+        <input type="email" id="contact-email" required />
+        <label class="standard-label" for="contact-tel">Telephone</label>
+        <input type="tel" id="contact-tel" />
+        <label class="standard-label" for="contact-msg">Message</label>
+        <textarea required maxlength="240" id="contact-msg"></textarea>
+        <input type="submit" value="send message" />
+      </form>
+    </main>
+    <footer class="page-footer page-footer--contact">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="#"><img src="images/github.svg" alt="my github link" /></a>
+        <a href=""><img src="images/linkedin.svg" alt="my linkedin link" /></a>
+        <a href=""
+          ><img src="images/stack-overflow.svg" alt="my stack-overflow link"
+        /></a>
+        <a href=""><img src="images/dribbble.svg" alt="my dribbble link" /></a>
+        <a href=""><img src="images/medium.svg" alt="my medium link" /></a>
+      </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>
