@@ -55,18 +55,37 @@
       </nav>
     </header>
     <main class="main-contact">
-      Tel <a href="tel:+4917661606400">+49 17661606488</a><br />
-      Skype <a href="skype:live:.cid.1535fac7435a5bfd">hello.abhishek</a><br />
-      <a href="mailto:karkiabhishek53@gmail.com">karkiabhishek53@gmail.com</a>
-      <form action="" method="post" id="contact-form">
-        <label class="standard-label" for="contact-email">Email</label>
-        <input type="email" id="contact-email" required />
-        <label class="standard-label" for="contact-tel">Telephone</label>
-        <input type="tel" id="contact-tel" />
-        <label class="standard-label" for="contact-msg">Message</label>
-        <textarea required maxlength="240" id="contact-msg"></textarea>
-        <input type="submit" value="send message" />
-      </form>
+      <h1>Contact Me</h1>
+
+      <div class="form-container">
+        <form method="post" id="contact-form">
+          <label class="standard-label" for="contact-email">Email</label>
+          <input type="email" id="contact-email" required />
+          <label class="standard-label" for="contact-tel">Telephone</label>
+          <input type="tel" id="contact-tel" />
+          <label class="standard-label" for="contact-msg">Message</label>
+          <textarea required maxlength="240" id="contact-msg"></textarea>
+          <input type="submit" value="send message" class />
+        </form>
+      </div>
+      <div class="main-contact__details">
+        Tel
+        <a href="tel:+4917661606400" class="main-contact__details__list"
+          >+49 17661606488</a
+        ><br />
+        Skype
+        <a
+          href="skype:live:.cid.1535fac7435a5bfd"
+          class="main-contact__details__list"
+          >hello.abhishek</a
+        ><br />
+        Email
+        <a
+          href="mailto:karkiabhishek53@gmail.com"
+          class="main-contact__details__list"
+          >karkiabhishek53@gmail.com</a
+        >
+      </div>
     </main>
     <footer class="page-footer page-footer--contact">
       <p>Find me on</p>
